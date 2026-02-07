@@ -91,4 +91,4 @@ This project implements a content-based recommendation system for Netflix conten
     - [S-Jyothika](https://github.com/S-Jyothika)
 
 ## License
-This project was developed as part of the **AI Minor Project** coursework for educational purposes.
+This project was developed as part of the **AI Final Project** coursework for educational purposes.
