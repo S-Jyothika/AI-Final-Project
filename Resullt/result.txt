@@ -1,0 +1,28 @@
+==> Clustering Output: 
+    -> df[['title','cluster']].head(10)
+    o/p:  title              cluster
+          --------------------------
+          3 Idiots               3
+          PK                     3
+          Rang De Basanti        2
+          No Entry               1
+          War Chhod Na Yaar      3
+          Dil Chahta Hai         3
+
+==> Silhouette Score Output: 
+  -> print("Silhouette Score:", sil_score)
+ o/p: Silhouette Score: 0.06418374993932296
+
+==> Recommendation Output
+  -> print(recommend("3 Idiots"))
+  o/p: ['Dil Dhadakne Do', 'Thank You', 'Upstarts']
+
+  -> df[['title', 'type', 'listed_in', 'cluster']].sample(5, random_state=2)
+  o/p:         title	                      type	   listed_in	             cluster
+      --------------------------------------------------------------------------------
+      4572	  Oddbods: Party Monsters	     Movie	   Movies	                   4
+      2120	  Fast & Furious Spy Racers	   TV Show	 Kids'TV	                 4
+      5437	  Scooby-Doo on Zombie Island	 Movie	   Children & Family Movies	 4
+      1558	  Cutie and the Boxer	         Movie	   Documentaries	           3
+      7230	  Triumph of the Heart	       Movie	   Dramas,Sports Movies	     4
+
